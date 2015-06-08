@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pass VTU</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_semester">Semester</string>
+    <string name="title_activity_subject">Subject</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="title_activity_units">Units</string>
+    <string name="title_activity_download">Download</string>
+</resources>
