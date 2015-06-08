@@ -57,28 +57,7 @@ public class Download extends ActionBarActivity {
         }
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_download, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//
-//    }
+
 
     @Override
     protected Dialog onCreateDialog(int id) {
@@ -190,21 +169,7 @@ public class Download extends ActionBarActivity {
             dismissDialog(progress_bar_type);
         }
 
-        /**
-         * After completing background task
-         * Dismiss the progress dialog
-         * **/
-//        @Override
-//        protected void onPostExecute(String file_url) {
-//            // dismiss the dialog after the file was downloaded
-//            dismissDialog(progress_bar_type);
-//
-//            // Displaying downloaded image into image view
-//            // Reading image path from sdcard
-//            String imagePath = Environment.getExternalStorageDirectory().toString() + "/downloadedfile.jpg";
-//            // setting downloaded into image view
-//            my_image.setImageDrawable(Drawable.createFromPath(imagePath));
-//        }
+
     }
 
 }
